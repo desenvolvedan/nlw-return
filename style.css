@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: #00856F;
+  --headline: #212529;
+  --paragraph: #495057;
+  --bg: #DCE9E2;
+
+  font-size: 62,5%; /* 1rem = 10px */
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.container {
+  width: 37.5rem;
+  height: 7.2rem;
+  background-color: #00856F;
+
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  font-weight: 700;
+}
+
+header {
+  display: block;
+  width: 37.5rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 4.1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  background-color: var(--bg);
+}
+
+h4 {
+  font-size: 1.4rem;
+  color: var(--primary-color);
+}
+
+h1 {
+  font-size: 3.4rem;
+  color: var(--headline);
+  line-height: 130%;
+
+  margin-top: 1.6rem;
+}
+
+.p1 {
+  color: var(--paragraph);
+  font-size: 1.8rem;
+  line-height: 150%;
+  font-weight: 400;
+
+  margin-top: 2.4rem;
+}
+
+button {
+  background: var(--primary-color);
+
+  height: 5.2rem;
+  width: 26.3rem;
+  border-radius: 4.0rem;
+  border: none;
+  
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+  
+  margin-top: 3.2rem;
+  margin-bottom: 6.0rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.baixo {
+  background: #FFFAF1;
+  height: 47.0rem;
+  width: 32.7rem;
+  margin-top: 0;
+  top: 89rem;
+  margin-right: auto;
+  margin-left: auto;
+
+  border: 1px solid #DCE9E2;
+  box-sizing: border-box;
+  border-radius: 0.6rem;
+
+  position: absolute;
+}
+
+.h3 {
+  color: #212529;
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 130%;
+
+  margin-bottom: 0.4rem;
+  margin-top: 4.0rem;
+}
+
+.p2 {
+  color: #00856F;
+  font-size: 1.6rem;
+
+  margin-bottom: 6.0rem;
+}
+
+.p3 {
+  color: #00856F;
+  font-size: 1.6rem;
+
+  margin-bottom: 4.0rem;
+}
